@@ -2,10 +2,12 @@ manifest:
   remotes:
     - name: slicemk
       url-base: https://github.com/slicemk
+    - name: darrenchurchill
+      url-base: https://github.com/darrenchurchill
   projects:
     - name: zmk
-      remote: slicemk
-      revision: main
+      remote: darrenchurchill
+      revision: ergodox-v20250120-rgb
       import: app/west.yml
   self:
     path: config
