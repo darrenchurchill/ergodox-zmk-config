@@ -15,6 +15,9 @@
     zmk,matrix_transform = &alt_transform;
 };
 #endif // SliceMK Ergodox shields
+&chosen {
+    zmk,matrix_transform = &alt_transform;
+};
 
 #ifdef sys_off
 #define SOFT_OFF &sys_off
