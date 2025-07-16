@@ -1,7 +1,0 @@
-#include "slicemk_ergodox_left.dtsi"
-#include "slicemk_ergodox_transform.dtsi"
-
-&chosen {
-    zmk,kscan = &kscan0;
-    zmk,matrix_transform = &alt_transform;
-};

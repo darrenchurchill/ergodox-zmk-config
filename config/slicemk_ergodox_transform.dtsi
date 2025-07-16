@@ -1,6 +1,10 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
 / {
+    chosen {
+        zmk,matrix_transform = &alt_transform;
+    };
+
     alt_transform: keymap_transform_1 {
         compatible = "zmk,matrix-transform";
         columns = <14>;
