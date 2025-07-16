@@ -3,6 +3,7 @@
 // https://zmk.dev/docs/config/combos
 
 #pragma once
+#include <dt-bindings/zmk/keys.h>
 
 #include "key_positions.dtsi"
 #include "layers.dtsi"
