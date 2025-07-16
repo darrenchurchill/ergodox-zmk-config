@@ -12,11 +12,13 @@
 
 #if defined(SHIELD_SLICEMK_ERGODOX_DONGLE) || defined(SHIELD_SLICEMK_ERGODOX_LEFTCENTRAL) || defined(SHIELD_SLICEMK_ERGODOX_LEFTSINGLE) || defined(SHIELD_SLICEMK_ERGODOX_LEFTPERIPHERAL) || defined(SHIELD_SLICEMK_ERGODOX_RIGHTCENTRAL) || defined(SHIELD_SLICEMK_ERGODOX_RIGHTSINGLE) || defined(SHIELD_SLICEMK_ERGODOX_RIGHTPERIPHERAL)
 &chosen {
-    zmk,matrix_transform = &alt_transform;
+    zmk,matrix-transform = &alt_transform;
 };
 #endif // SliceMK Ergodox shields
-&chosen {
-    zmk,matrix_transform = &alt_transform;
+/ {
+    chosen {
+        zmk,matrix-transform = &alt_transform;
+    };
 };
 
 #ifdef sys_off
