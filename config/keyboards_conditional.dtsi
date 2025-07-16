@@ -11,9 +11,10 @@
 #endif // defined(BOARD_ADV360_LEFT) || defined(BOARD_ADV360_RIGHT)
 
 #if defined(SHIELD_SLICEMK_ERGODOX_DONGLE) || defined(SHIELD_SLICEMK_ERGODOX_LEFTCENTRAL) || defined(SHIELD_SLICEMK_ERGODOX_LEFTSINGLE) || defined(SHIELD_SLICEMK_ERGODOX_LEFTPERIPHERAL) || defined(SHIELD_SLICEMK_ERGODOX_RIGHTCENTRAL) || defined(SHIELD_SLICEMK_ERGODOX_RIGHTSINGLE) || defined(SHIELD_SLICEMK_ERGODOX_RIGHTPERIPHERAL)
-#include "slicemk_ergodox_transform.dtsi"
+&chosen {
+    zmk,matrix_transform = &alt_transform;
+};
 #endif // SliceMK Ergodox shields
-#include "slicemk_ergodox_transform.dtsi"
 
 #ifdef sys_off
 #define SOFT_OFF &sys_off
