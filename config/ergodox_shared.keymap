@@ -45,25 +45,16 @@
         /* SliceMK Ergodox */
         &sys_off
 
-        /* LH */
-        &kp GRAVE       &kp N7          &kp N8         &kp N9            &kp N0            &kp N5                       &tog _SYM
-        &kp TAB         &llt _FN Q      &llt _MEDIA W  &llt_qas HT_NO F  &llt _NAV P       &kp B                        &none
-        &kp ESC         &lmt_c LCTRL A  &llt _NUM R    &llt _SYM S       &lmt_g LGUI T     &kp G
-        &kp BSPC        &lmt LGUI Z     &lmt LALT X    &lmt LSHFT C      &lmt_c LCTRL D    &kp V                        &kp GRAVE
-        &tog _TAP_ONLY  &kp PG_UP       &kp PG_DN      &kp LEFT          &kp RIGHT
-                                                                                           &mt LGUI DQT                 &kp LCTRL
-                                                                         &lt_mt LSHFT ESC  &lt_lt_nav_alt_tab HT_NO DEL &kp HOME
-                                                                                                                        &kp TAB
 
-        /* RH */
-        &mo _ZMK   &kp N6        &kp N1         &kp N2            &kp N3         &kp N4           &kp BSLH
-        &none      &kp J         &kp L          &kp U             &kp Y          &rlt _FN SQT     &kp LS(TAB)
-                   &kp M         &rmt_g RGUI N  &rlt _SYM E       &rlt _NUM I    &rmt RCTRL O     &kp ENTER
-        &kp DQT    &kp K         &rmt RCTRL H   &rmt RSHFT COMMA  &rmt RALT DOT  &rmt RGUI SLASH  &kp DEL
-                                 &kp DOWN       &kp UP            &kp LBKT       &kp RBKT         &mo _SYM
-        &kp RCTRL  &mt LGUI SQT
-        &kp PG_UP  &kp BSPC      &rt_lt _ARRW SPACE
-        &kp TAB
+        /* LH */                                                                                                                   /* RH */
+        &kp GRAVE       &kp N7          &kp N8         &kp N9            &kp N0            &kp N5                       &tog _SYM  &mo _ZMK   &kp N6        &kp N1         &kp N2            &kp N3         &kp N4           &kp BSLH
+        &kp TAB         &llt _FN Q      &llt _MEDIA W  &llt_qas HT_NO F  &llt _NAV P       &kp B                        &none      &none      &kp J         &kp L          &kp U             &kp Y          &rlt _FN SQT     &kp LS(TAB)
+        &kp ESC         &lmt_c LCTRL A  &llt _NUM R    &llt _SYM S       &lmt_g LGUI T     &kp G                                              &kp M         &rmt_g RGUI N  &rlt _SYM E       &rlt _NUM I    &rmt RCTRL O     &kp ENTER
+        &kp BSPC        &lmt LGUI Z     &lmt LALT X    &lmt LSHFT C      &lmt_c LCTRL D    &kp V                        &kp GRAVE  &kp DQT    &kp K         &rmt RCTRL H   &rmt RSHFT COMMA  &rmt RALT DOT  &rmt RGUI SLASH  &kp DEL
+        &tog _TAP_ONLY  &kp PG_UP       &kp PG_DN      &kp LEFT          &kp RIGHT                                                                          &kp DOWN       &kp UP            &kp LBKT       &kp RBKT         &mo _SYM
+                                                                                           &mt LGUI DQT                 &kp LCTRL  &kp RCTRL  &mt LGUI SQT
+                                                                         &lt_mt LSHFT ESC  &lt_lt_nav_alt_tab HT_NO DEL &kp HOME   &kp PG_UP  &kp BSPC      &rt_lt _ARRW SPACE
+                                                                                                                        &kp TAB    &kp TAB
 
       >;
     };
