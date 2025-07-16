@@ -1,0 +1,29 @@
+// Conditional preprocessor macros to aid configuration for different keyboards
+// The keyboards currently in here are:
+// 1. Kinesis Advantage 360
+// 2. SliceMK Ergodox (Left Central & Right Peripheral)
+
+#if defined(BOARD_ADV360_LEFT) || defined(BOARD_ADV360_RIGHT)
+// RGB Underglow command for the current battery level on each side
+#define BAT_LVL &rgb_ug RGB_MEFS_CMD 5
+#else
+#define BAT_LVL &none
+#endif // defined(BOARD_ADV360_LEFT) || defined(BOARD_ADV360_RIGHT)
+
+#if defined(SHIELD_SLICEMK_ERGODOX_DONGLE) || \
+    defined(SHIELD_SLICEMK_ERGODOX_LEFTCENTRAL) || \
+    defined(SHIELD_SLICEMK_ERGODOX_LEFTSINGLE) || \
+    defined(SHIELD_SLICEMK_ERGODOX_LEFTPERIPHERAL) || \
+    defined(SHIELD_SLICEMK_ERGODOX_RIGHTCENTRAL) || \
+    defined(SHIELD_SLICEMK_ERGODOX_RIGHTSINGLE) || \
+    defined(SHIELD_SLICEMK_ERGODOX_RIGHTPERIPHERAL)
+#include "slicemk_ergodox_transform.dtsi"
+#endif // SliceMK Ergodox shields
+
+#ifdef sys_off
+#define SOFT_OFF &sys_off
+#elif defined(soft_off)
+#define SOFT_OFF &soft_off
+#else
+#define SOFT_OFF &none
+#endif // sys_off or soft_off
