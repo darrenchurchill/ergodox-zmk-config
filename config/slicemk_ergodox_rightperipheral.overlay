@@ -1,3 +1,7 @@
 // NOTE: This overlay gets applied __before__ the default overlay, so the
 // default overlay will override this one.
 #include "slicemk_ergodox_transform.dtsi"
+
+&default_transform {
+    col-offset = <7>;
+};
