@@ -42,12 +42,15 @@
     // filevault login screen
     colemak {
       bindings = <
+        &kp GRAVE       &kp N7          &kp N8
+        &mo _ZMK   &kp N6        &kp N1
+
         /* SliceMK Ergodox */
         &sys_off
 
 
         /* LH */                                                                                                                   /* RH */
-        &kp GRAVE       &kp N7          &kp N8         &kp N9            &kp N0            &kp N5                       &tog _SYM  &mo _ZMK   &kp N6        &kp N1         &kp N2            &kp N3         &kp N4           &kp BSLH
+                                                       &kp N9            &kp N0            &kp N5                       &tog _SYM                                          &kp N2            &kp N3         &kp N4           &kp BSLH
         &kp TAB         &llt _FN Q      &llt _MEDIA W  &llt_qas HT_NO F  &llt _NAV P       &kp B                        &none      &none      &kp J         &kp L          &kp U             &kp Y          &rlt _FN SQT     &kp LS(TAB)
         &kp ESC         &lmt_c LCTRL A  &llt _NUM R    &llt _SYM S       &lmt_g LGUI T     &kp G                                              &kp M         &rmt_g RGUI N  &rlt _SYM E       &rlt _NUM I    &rmt RCTRL O     &kp ENTER
         &kp BSPC        &lmt LGUI Z     &lmt LALT X    &lmt LSHFT C      &lmt_c LCTRL D    &kp V                        &kp GRAVE  &kp DQT    &kp K         &rmt RCTRL H   &rmt RSHFT COMMA  &rmt RALT DOT  &rmt RGUI SLASH  &kp DEL
