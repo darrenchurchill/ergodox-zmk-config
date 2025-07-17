@@ -2,6 +2,6 @@
 // default overlay will override this one.
 #include "slicemk_ergodox_transform.dtsi"
 
-&default_transform {
+&alt_transform {
     col-offset = <7>;
 };
