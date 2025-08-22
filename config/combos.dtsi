@@ -8,7 +8,7 @@
 #include "layers.dtsi"
 #include "macros.dtsi"
 
-#define COMBO_TIMEOUT_MS_FAST 30
+#define COMBO_TIMEOUT_MS_FAST 25
 #define COMBO_TIMEOUT_MS 70
 #define COMBO_ROLLED_PAIRS_REQUIRE_PRIOR_IDLE_MS 100
 
