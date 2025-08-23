@@ -212,11 +212,11 @@
     arrw {
       bindings = <
         /* LH */
-        &trans  &trans  &trans  &trans    &trans     &trans  &trans
-        &trans  &trans  &trans  &trans    &trans     &trans  &trans
-        &trans  &trans  &trans  &kp LEFT  &kp RIGHT  &trans  &trans                &trans  &trans
-        &trans  &trans  &trans  &trans    &trans     &trans                                &trans
-        &trans  &trans  &trans  &trans    &trans             &lt_mt LSHFT LS(ESC)  &trans  &trans
+        &trans  &trans     &trans     &trans    &trans     &trans  &trans
+        &trans  &trans     &trans     &trans    &trans     &trans  &trans
+        &trans  &kp PG_UP  &kp PG_DN  &kp LEFT  &kp RIGHT  &trans  &trans                &trans  &trans
+        &trans  &trans     &trans     &trans    &trans     &trans                                &trans
+        &trans  &trans     &trans     &trans    &trans             &lt_mt LSHFT LS(ESC)  &trans  &trans
 
         /* RH */
                         &trans  &trans    &trans    &trans  &trans   &trans  &trans
