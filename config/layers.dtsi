@@ -2,24 +2,26 @@
 // https://zmk.dev/docs/behaviors/layers
 #pragma once
 
-#define _COLEMAK   0
-#define _QWERTY    1
-#define _SYM       2
-#define _NUM       3
-#define _NAV       4
-#define _ALT_TAB   5
-#define _MEDIA     6
-#define _FN        7
-#define _ARRW      8
-#define _TAP_ONLY  9
-#define _ZMK      10
-#define _LEAD     11
-#define _LEAD_L   12
+#define _COLEMAK          0
+#define _HANDS_DOWN_GOLD  1
+#define _QWERTY           2
+#define _SYM              3
+#define _NUM              4
+#define _NAV              5
+#define _ALT_TAB          6
+#define _MEDIA            7
+#define _FN               8
+#define _ARRW             9
+#define _TAP_ONLY        10
+#define _ZMK             11
+#define _LEAD            12
+#define _LEAD_L          13
 
 // NOTE: If you add a layer, consider updating this macro for any combos
 // containing a layers property.
 #define _All_EXCEPT_SYM \
 _COLEMAK \
+_HANDS_DOWN_GOLD \
 _QWERTY \
 _NUM \
 _NAV \
