@@ -68,7 +68,7 @@
         &trans  &llt _FN J      &llt _MEDIA G  &llt_qas HT_NO M  &llt _NAV P     &kp V   &trans
         &trans  &lmt_c LCTRL R  &llt _NUM S    &llt _SYM N       &lmt_g LGUI D   &kp B   &trans          &trans  &trans
         &trans  &lmt LGUI X     &lmt LALT F    &lmt LSHFT L      &lmt_c LCTRL C  &kp W                           &trans
-        &trans  &trans          &trans         &trans            &trans                  &lt_mt LSHFT T  &trans  &trans
+        &trans  &trans          &trans         &trans            &trans                  &lt_mt_hdg LSHFT T  &trans  &trans
 
         /* RH */
                         &trans  &trans     &trans         &trans        &trans       &trans        &trans
