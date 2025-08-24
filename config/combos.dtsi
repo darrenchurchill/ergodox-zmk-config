@@ -71,6 +71,18 @@
     // Left Hand
     // Horizontal Combos
     // Top Row
+    combo_z {
+      timeout-ms = <COMBO_TIMEOUT_MS>;
+      key-positions = <LH11 LH12>; // J & G (sounds like "Z")
+      bindings = <&kp Z>;
+      layers  = <_HANDS_DOWN_GOLD>;
+    };
+    combo_q {
+      timeout-ms = <COMBO_TIMEOUT_MS>;
+      key-positions = <LH12 LH14>; // G & P
+      bindings = <&kp Q>;
+      layers  = <_HANDS_DOWN_GOLD>;
+    };
     combo_lh_delete {
       timeout-ms = <COMBO_TIMEOUT_MS>;
       key-positions = <LH14 LH15>; // P & B (R & T)

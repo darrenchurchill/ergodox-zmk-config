@@ -99,6 +99,14 @@
         , <&macro_tap &kp C &kp R &kp I &kp P &kp T>;
     };
 
+    // Bigram Macros
+    // m_qu: m_qu {
+    //   compatible = "zmk,behavior-macro";
+    //   #binding-cells = <0>;
+    //   wait-ms = <MACRO_HOST_SEQUENCE_DELAY>;
+    //   tap-ms = <MACRO_HOST_SEQUENCE_DELAY>;
+    //   bindings = <&macro_tap &kp Q>, <&macro_tap &kp U>;
+    // };
 
     // Symbol Macros
     m_trp_grave: m_trp_grave {

@@ -61,6 +61,27 @@
       >;
     };
 
+    hands_down_gold {
+      bindings = <
+        /* LH */
+        &trans  &trans          &trans         &trans            &trans          &trans  &trans
+        &trans  &llt _FN J      &llt _MEDIA G  &llt_qas HT_NO M  &llt _NAV P     &kp V   &trans
+        &trans  &lmt_c LCTRL R  &llt _NUM S    &llt _SYM N       &lmt_g LGUI D   &kp B   &trans          &trans  &trans
+        &trans  &lmt LGUI X     &lmt LALT F    &lmt LSHFT L      &lmt_c LCTRL C  &kp W                           &trans
+        &trans  &trans          &trans         &trans            &trans                  &lt_mt LSHFT T  &trans  &trans
+
+        /* RH */
+                        &trans  &trans     &trans         &trans        &trans       &trans        &trans
+                        &trans  &kp SEMI   &kp DOT        &kp SLASH     &kp DQT      &rlt _FN SQT  &trans
+        &trans  &trans  &trans  &kp COMMA  &rmt_g RGUI A  &rlt _SYM E   &rlt _NUM I  &rmt RCTRL H  &trans
+        &trans                  &kp MINUS  &rmt RCTRL U   &rmt RSHFT O  &rmt RALT Y  &rmt RGUI K   &trans
+        &trans  &trans  &trans             &trans         &trans        &trans       &trans        &trans
+
+        /* SliceMK Ergodox */
+        &sys_off
+      >;
+    };
+
     qwerty {
       bindings = <
         /* LH */
@@ -303,11 +324,11 @@
         &to 0  &to 0        &to 0  &to 0         &to 0                 &to 0  &to 0  &to 0
 
         /* RH */
-                      &to 0  &to 0  &to 0  &to 0  &to 0  &to 0  &to 0
-                      &to 0  &to 0  &to 0  &to 0  &to 0  &to 0  &to 0
-        &to 0  &to 0  &to 0  &to 0  &to 0  &to 0  &to 0  &to 0  &to 0
-        &to 0                &to 0  &to 0  &to 0  &to 0  &to 0  &to 0
-        &to 0  &to 0  &to 0         &to 0  &to 0  &to 0  &to 0  &to 0
+                      &to 0  &to 0  &to 0                 &to 0  &to 0  &to 0  &to 0
+                      &to 0  &to 0  &to 0                 &to 0  &to 0  &to 0  &to 0
+        &to 0  &to 0  &to 0  &to 0  &to 0                 &to 0  &to 0  &to 0  &to 0
+        &to 0                &to 0  &to _HANDS_DOWN_GOLD  &to 0  &to 0  &to 0  &to 0
+        &to 0  &to 0  &to 0         &to 0                 &to 0  &to 0  &to 0  &to 0
 
         /* SliceMK Ergodox */
         &trans
