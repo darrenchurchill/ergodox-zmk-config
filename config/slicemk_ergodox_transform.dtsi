@@ -1,12 +1,6 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
 / {
-    // TODO: Follow ZMK instructions to create a new board for this keyboard,
-    // since the MCU is directly on the PCB.
-    chosen {
-        zmk,matrix-transform = &alt_transform;
-    };
-
     alt_transform: keymap_transform_1 {
         compatible = "zmk,matrix-transform";
         columns = <14>;

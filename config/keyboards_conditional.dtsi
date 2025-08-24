@@ -13,12 +13,15 @@
 #if defined(CONFIG_SHIELD_SLICEMK_ERGODOX_DONGLE) || defined(CONFIG_SHIELD_SLICEMK_ERGODOX_LEFTCENTRAL) || defined(CONFIG_SHIELD_SLICEMK_ERGODOX_LEFTSINGLE) || defined(CONFIG_SHIELD_SLICEMK_ERGODOX_LEFTPERIPHERAL) || defined(CONFIG_SHIELD_SLICEMK_ERGODOX_RIGHTCENTRAL) || defined(CONFIG_SHIELD_SLICEMK_ERGODOX_RIGHTSINGLE) || defined(CONFIG_SHIELD_SLICEMK_ERGODOX_RIGHTPERIPHERAL)
 // FIXME: This #if defined either doesn't trigger, or gets overridden by another
 // overlay.
+&chosen {
+    zmk,matrix-transform = &alt_transform;
+};
+#endif // SliceMK Ergodox shields
 / {
     chosen {
         zmk,matrix-transform = &alt_transform;
     };
 };
-#endif // SliceMK Ergodox shields
 
 #ifdef sys_off
 #define SOFT_OFF &sys_off
