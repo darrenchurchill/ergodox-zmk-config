@@ -73,7 +73,7 @@
     // Top Row
     combo_z {
       timeout-ms = <COMBO_TIMEOUT_MS>;
-      key-positions = <LH11 LH12>; // J & G (sounds like "Z")
+      key-positions = <LH12 LH13>; // G & M
       bindings = <&kp Z>;
       layers  = <_HANDS_DOWN_GOLD>;
     };
