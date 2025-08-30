@@ -101,18 +101,18 @@
     };
     // TODO: change these tab combos to just a tap-only combo => use TAB / LS(TAB)
     // for both &combo_ht args
-    combo_lt_sym_lshift_tab {
+    combo_lt_sym_tab {
       timeout-ms = <COMBO_TIMEOUT_MS_FAST>;
       key-positions = <LH22 LH23>; // R & S (S & D)
       require-prior-idle-ms = <COMBO_ROLLED_PAIRS_REQUIRE_PRIOR_IDLE_MS>;
-      bindings = <&combo_lt _SYM LS(TAB)>;
+      bindings = <&combo_lt _SYM TAB>;
     };
-    combo_lt_nav_tab {
+    combo_lt_nav_esc {
       timeout-ms = <COMBO_TIMEOUT_MS_FAST>;
       key-positions = <LH23 LH24>; // S & T (D & F)
       require-prior-idle-ms = <COMBO_ROLLED_PAIRS_REQUIRE_PRIOR_IDLE_MS>;
       slow-release;
-      bindings = <&combo_lt _NAV TAB>;
+      bindings = <&combo_lt _NAV ESC>;
     };
     combo_question {
       timeout-ms = <COMBO_TIMEOUT_MS>;
